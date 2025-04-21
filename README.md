@@ -17,3 +17,4 @@ Helm chart for deploying **Lava applications**.
 ```bash
 helm repo add impulse https://helm.impulse.expert
 helm repo update
+```
