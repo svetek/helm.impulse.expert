@@ -1,5 +1,3 @@
-# 🚀 helm.impulse.expert
-
 Helm chart for deploying **Lava applications**.
 
 ---
