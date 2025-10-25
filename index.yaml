@@ -41,6 +41,34 @@ entries:
           image: ghcr.io/lavanet/lava/lavap
     apiVersion: v2
     appVersion: v5.3.0
+    created: "2025-10-25T21:30:42.548339027+04:00"
+    description: 'Lava helm chart for the provider service '
+    digest: 5f983438912e09a6fdbf97ab72725667d0911b352bbf0a9d85bf8a9a74be34d1
+    home: https://lavanet.xyz
+    icon: https://github.com/lavanet/helm-charts/blob/main/docs/logo/logo.png?raw=true
+    keywords:
+    - provider
+    - blockchain
+    - web3
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: Impulse
+      url: https://impulse.expert
+    name: lava-provider
+    sources:
+    - https://github.com/lavanet/helm-charts
+    type: application
+    urls:
+    - https://helm.impulse.expert/lava-provider-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/prerelease: "false"
+      images: |
+        - name: provider
+          image: ghcr.io/lavanet/lava/lavap
+    apiVersion: v2
+    appVersion: v5.3.0
     created: "2025-06-06T21:31:26.583389724+04:00"
     description: 'Lava helm chart for the provider service '
     digest: 1715fd3644a41860c917c453472b907254c9a094cfd68056be633a1d76049c0c
@@ -145,4 +173,4 @@ entries:
     urls:
     - https://helm.impulse.expert/lava-provider-1.0.2.tgz
     version: 1.0.2
-generated: "2025-06-06T21:31:26.572285822+04:00"
+generated: "2025-10-25T21:30:42.546453601+04:00"
